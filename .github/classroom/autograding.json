@@ -3,7 +3,7 @@
     {
       "name": "Step 0 Welcome",
       "setup": "sleep 2",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
+      "run": "[ $(cat .github/steps/-step.txt) -ge 0 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Step 2 javascript",
       "setup": "sleep 2",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
+      "run": "[ $(cat .github/steps/-step.txt) -ge 2 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Step 3 Copilot Hub",
       "setup": "sleep 2",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
+      "run": "[ $(cat .github/steps/-step.txt) -ge 3 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Step 4 Copilot comment",
       "setup": "sleep 2",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
+      "run": "[ $(cat .github/steps/-step.txt) -ge 4 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Step 5 finish",
       "setup": "sleep 2",
-      "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
+      "run": "[ $(cat .github/steps/-step.txt) -ge 5 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
       "comparison": "included",
